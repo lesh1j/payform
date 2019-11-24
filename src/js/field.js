@@ -31,7 +31,6 @@ export default class Field {
       this.validate();
       this.changeButton();
       if(this.input.id === 'card_number') this.changeCardType();
-      if(this.input.id === 'name') this.input.value = this.input.value.toUpperCase();
     });
   }
   
