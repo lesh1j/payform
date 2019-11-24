@@ -22,9 +22,7 @@ fields.forEach((item) => {
   }
   
   field.onInput(); 
-  
 });
-
 
 const dropdowns = document.querySelectorAll('.dropdown');
 
